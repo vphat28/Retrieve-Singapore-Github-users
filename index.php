@@ -1,5 +1,5 @@
 <?php
-// Token can be get from here https://github.com/settings/tokens
+// Token can be retrieved from here https://github.com/settings/tokens
 define('TOKEN', 'provide token here');
 
 function githubRequest($url)
