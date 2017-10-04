@@ -1,11 +1,10 @@
 <?php
-define('TOKEN', 'vphat28:6dabe48cf6003c5e21584c1c987b50f9d8b6bc84');
+// Token can be get from here https://github.com/settings/tokens
+define('TOKEN', 'provide token here');
 
 function githubRequest($url)
 {
     $ch = curl_init();
-	
-    // Token can be get from here https://github.com/settings/tokens
     $access = TOKEN;
     curl_setopt($ch, CURLOPT_URL, $url);
 	curl_setopt($ch, CURLOPT_USERAGENT, 'website');
